@@ -1,16 +1,19 @@
 import './App.css';
 import Boton from './componentes/Boton';
 import Contador from './componentes/Contador';
-import CodeLogo from './imagenes/freecodecamp-logo.png'
+import CodeLogo from './imagenes/pabloContrerasLogo.png'
+import { useState } from 'react';
 
 function App() {
 
+  const [numClics, setnumClics] = useState(0);
+
   const manejarClic = () =>{
-    console.log('click');
+    setnumClics(numClics + 1);
   }
 
   const reiniciarContador = () =>{
-    console.log('Reiniciar');
+    setnumClics(0);
   }
 
   return (
@@ -24,7 +27,7 @@ function App() {
       </div>
       <div className='contenedor-principal'>
         <Contador
-          numeroClics={5}
+          numeroClics={numClics}
         />
         <Boton
           texto='Clic'
