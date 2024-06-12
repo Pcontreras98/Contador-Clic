@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/React-counter-click/static/css/main.a302fff7.css",
+    "main.js": "/React-counter-click/static/js/main.a6b06ac2.js",
+    "static/media/pabloContrerasLogo.png": "/React-counter-click/static/media/pabloContrerasLogo.2c32fe744fdd7f13b849.png",
+    "index.html": "/React-counter-click/index.html",
+    "main.a302fff7.css.map": "/React-counter-click/static/css/main.a302fff7.css.map",
+    "main.a6b06ac2.js.map": "/React-counter-click/static/js/main.a6b06ac2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a302fff7.css",
+    "static/js/main.a6b06ac2.js"
+  ]
+}
